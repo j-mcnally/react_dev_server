@@ -1,9 +1,12 @@
-# Node-starter
+# Webpack-react-starter
 
-A Clean Starter Template for Node projects.
+A Clean Starter Template for React/Webpack projects.
 
 ## Tech
 
-- Express.oi (Sockets and HTTP)
-- Mongorito (MongoDB ORM)
-- Babel (ES2015)
+- Webpack Dev Server
+- Hot Module Reloading
+- React
+- ES-20xx
+- JSX
+- CSS
