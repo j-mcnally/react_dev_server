@@ -1,0 +1,38 @@
+{
+  "name": "react_webpack_server",
+  "version": "1.0.0",
+  "description": "Dev Server Template",
+  "main": "index.js",
+  "repository": "git@github.com:j-mcnally/react_dev_server.git",
+  "author": "justin@chowlyinc.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "moment": "^2.17.1",
+    "nodemon": "^1.11.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2017": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0"
+  }
+}
